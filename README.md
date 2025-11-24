@@ -1,5 +1,5 @@
-# INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS---2024
-## 📊 1. Power BI Dashboard – India General Election Results 2024
+# INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS 2024
+## 📊 Power BI Dashboard – India General Election Results 2024
 
 📘 Project Overview
 
@@ -213,5 +213,22 @@ India-General-Election-Results-2024/
 
 
 
+
+
     
-## 🗄 2. SQL Analysis – India General Election Results 2024
+## 📊 SQL Project – India General Election Results Analysis (2024)
+
+📌 Overview
+
+This project focuses on performing an end-to-end SQL analysis of the India General Elections 2024 dataset.
+The goal is to extract meaningful insights from constituency-level results, party performance, alliance comparisons (NDA / I.N.D.I.A / Others), voting patterns, and candidate-level details.
+
+The dataset consisted of multiple connected tables:
+
+partywise_results
+constituencywise_results
+constituencywise_details
+statewise_results
+states
+
+The entire analysis was performed in SQL Server, including data cleaning, transformation, exploratory analysis, and advanced queries.
