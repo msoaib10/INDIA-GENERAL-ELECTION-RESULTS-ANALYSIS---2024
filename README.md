@@ -1,22 +1,22 @@
 # INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS 2024
 ## 📊 Power BI Dashboard – India General Election Results 2024
 
-⭐ Project Overview
+### ⭐ Project Overview
 
 This Power BI project provides an interactive and comprehensive visualization of the 2024 Indian General Election Results.
 It focuses on analyzing seat distribution, party performance, alliance dominance, and voter behavior at national, state, and constituency levels.
 The dashboards are designed to help political analysts, researchers, policymakers, and citizens gain data-driven insights into the election outcomes.
 
-🎯 Objectives
+###🎯 Objectives
 
 To visualize national-level election results for NDA, I.N.D.I.A., and Independent/Other parties.
 To enable state-wise and constituency-wise performance analysis using interactive maps and visuals.
 To provide drill-through analysis for deeper insights at granular levels.
 To allow users to export election data for further analysis.
 
-🧭 Dashboard Summary
+### 🧭 Dashboard Summary
 
-🏠 Dashboard 1,6: Landing Page
+### 🏠 Dashboard 1,6: Landing Page
 
 Acts as the navigation hub of the report.
 Features:
@@ -29,7 +29,7 @@ Home button on every page for easy return navigation.
 Clean, responsive design optimized for multiple screen sizes.
 Icon-based UI and hover effects for better interactivity.
 
-📊 Dashboard 1: Overview Analysis
+### 📊 Dashboard 1: Overview Analysis
 
 Provides a high-level summary of the overall election outcome.
 Key KPIs:
@@ -279,15 +279,15 @@ Reusable Stored Procedures for dynamic querying
 
 1. Total seats in India
 
-Counted all parliamentary constituencies.
+   Counted all parliamentary constituencies.
 
 2. State-wise total seats
 
-Calculated seats per state using multiple joins.
+   Calculated seats per state using multiple joins.
 
 3. Total seats won by NDA
 
-Dynamic calculation using the NDA party list.
+   Dynamic calculation using the NDA party list.
 
 4. Seats won by individual NDA parties
 
@@ -297,37 +297,37 @@ Dynamic calculation using the NDA party list.
 
 7. Added party_allianz field
 
-Mapped every party to the correct alliance.
+   Mapped every party to the correct alliance.
 
 8. Which alliance won the most seats?
 
-NDA vs I.N.D.I.A vs Others comparison.
+   NDA vs I.N.D.I.A vs Others comparison.
 
 9. State + Constituency level winner details
 
    For any constituency (ex: Nashik, Maharashtra):
 
-Winning candidate
+   Winning candidate
 
-Party
+   Party
 
-Alliance
+   Alliance
 
-Votes received
+   Votes received
 
-Winning margin
+   Winning margin
 
 10. EVM vs Postal Vote Distribution
 
-For each constituency:
+    For each constituency:
 
-Candidate
+    Candidate
 
-Party
+    Party
 
-EVM votes
+    EVM votes
 
-Postal votes
+    Postal votes
 
 
 11. Most successful party in each state
@@ -336,40 +336,40 @@ Postal votes
 
 13. Top 10 candidates by EVM votes
 
-Using Window Functions.
+    Using Window Functions.
 
 14. Top 10 candidates by Postal votes
 
 15. Winner & Runner-up per constituency
 
-Implemented with CTE + ROW_NUMBER() OVER()
+    Implemented with CTE + ROW_NUMBER() OVER()
 
 16. State Election Summary (Example: Maharashtra)
 
-Includes:
+    Includes:
 
-Total seats
+    Total seats
 
-Total candidates
+    Total candidates
 
-Total parties
+    Total parties
 
-Total votes
+    Total votes
 
-EVM vote sum
+    EVM vote sum
 
-Postal vote sum
+    Postal vote sum
 
 
 17. Created Dynamic Stored Procedures
 
-GetConstituencyVotes
+    GetConstituencyVotes
 
-GetPartySeatsByState
+    GetPartySeatsByState
 
-GetTopCandidatesByState
+    GetTopCandidatesByState
 
-GetElectionSummaryByState
+    GetElectionSummaryByState
 
 
 ## ⭐ Final Summary
