@@ -1,5 +1,5 @@
 # INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS---2024
-# India General Election Results Analysis – 2024 (Power BI Project)
+### India General Election Results Analysis – 2024 (Power BI Project)
 
 📘 Project Overview
 
