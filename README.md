@@ -395,3 +395,75 @@ High-performing parties and candidates
 
 
 This project serves as a robust backend foundation for the accompanying Power BI dashboard, demonstrating strong skills in SQL data modeling, analytical logic, and election data interpretation. It highlights the ability to convert raw data into meaningful, structured insights that can support researchers, analysts, and data-driven applications.
+
+
+# ⭐Lok Sabha Election 2024 – Result Data Analysis (2024)
+
+This project is created using Python and developed entirely in a Jupyter Notebook environment. This project presents a detailed data analysis of the 2024 Lok Sabha Election results. The aim is to uncover insights related to:
+
+Victory margins
+
+Seats won by each political party
+
+Performance of prominent candidates
+
+Vote distribution and party trends
+
+Parties trailing by votes and seats
+
+
+The analysis is performed using Python, Pandas, Matplotlib, and Seaborn, and the entire workflow is built inside a Jupyter Notebook.
+
+## ⭐Analysis Tasks
+
+The notebook performs the following major analyses:
+
+### 1. Import Libraries
+
+The analysis is performed in a Jupyter Notebook using the following Python libraries:
+
+pandas – for data loading, cleaning, and manipulation
+
+matplotlib – for creating visualizations
+
+seaborn – for statistical and advanced plotting
+
+
+### 2. Import Dataset
+
+Loads the election dataset containing candidate-level and party-level results.
+
+### 3. Party with Highest & Lowest Margin of Victory
+
+Identifies which party won a seat with the largest vote margin and which had the lowest.
+
+### 4. Seats Won by Each Party (Visualization)
+
+Creates a bar chart showing how many seats each political party secured in the 2024 election.
+
+### 5. Votes Received by Prominent Leaders
+
+Extracts and compares votes for key political figures such as:
+
+Narendra Modi
+
+Amit Shah
+
+Rahul Gandhi
+
+
+### 6. Highest & Lowest Victory Candidates
+
+Finds the candidates with the maximum and minimum victory margins.
+
+### 7. Votes Distribution by Party
+
+Analyzes how votes are distributed across all parties.
+
+### 8. Top 10 Trailing Parties by Vote
+
+Lists the parties that received the lowest number of total votes.
+
+### 9. Top 10 Trailing Parties by Seat
+
+Shows which parties secured the fewest seats.
