@@ -226,9 +226,13 @@ The goal is to extract meaningful insights from constituency-level results, part
 The dataset consisted of multiple connected tables:
 
 partywise_results
+
 constituencywise_results
+
 constituencywise_details
+
 statewise_results
+
 states
 
 The entire analysis was performed in SQL Server, including data cleaning, transformation, exploratory analysis, and advanced queries.
